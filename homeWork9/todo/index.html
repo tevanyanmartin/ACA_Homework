@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main-create-dv">
+    <div class="sub-main">
+        <div class="title">
+            <h1>Add task</h1>
+        </div>
+        <div class="form-div">
+            <form>
+                <label for="task-input">Enter task</label>
+                <textarea name="text" id="task-input" cols="30" rows="10"></textarea>
+                <input type="text" id="person-name" placeholder="Person Name">
+                <a id="add-task"> Send </a>
+            </form>
+        </div>
+        <div id="error"></div>
+    </div>
+</div>
+
+<div class="main-tasks">
+    <div class="sub-main-tasks">
+        <div class="title">
+            <h1>Tasks</h1>
+        </div>
+        <div class="table">
+            <table id="table" >
+                <tr class="table-title">
+                    <th id="num">N</th>
+                    <th id="pers">Person</th>
+                    <th id="task">Task</th>
+                    <th id="date">Date</th>
+                    <th id="event">Events</th>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>John</td>
+                    <td>task</td>
+                    <td>date...</td>
+                    <td>
+                        <button type="submit" class="delete"></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="main.js" type="text/javascript"></script>
+</html>

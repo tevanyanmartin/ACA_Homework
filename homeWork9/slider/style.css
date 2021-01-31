@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+body .image {
+    width: 80%;
+    overflow: hidden;
+    margin: 250px auto 0;
+    box-shadow: inset 1px 0px 20px 20px #00000078;
+}
+
+body .image .image-sub-div {
+    position: relative;
+}
+
+body .image .image-sub-div .prev-div {
+    background-image: url('img/prev.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    padding: 0 40px;
+    height: 100%;
+    cursor: pointer;
+}
+body .image .image-sub-div .prev-div:hover{
+    background-color: #00000078;
+    box-shadow: 20px 0px 50px 25px #00000078;
+    background-size: 90%;
+}
+
+body .image .image-sub-div .next-div {
+    background-image: url("img/next.png");
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    padding: 0 40px;
+    height: 100%;
+    cursor: pointer;
+}
+body .image .image-sub-div .next-div:hover{
+    background-color: #00000078;
+    box-shadow: -20px 0px 50px 25px #00000078;
+    background-size: 90%;
+}
+
+body .image .image-sub-div .imgs {
+    width: 100%;
+    display: -webkit-box;
+    position: relative;
+    right: 0;
+}
+body .image .image-sub-div .imgs div {
+    width: 100%;
+}
+
+body .image .image-sub-div .imgs div img {
+    width: 100%;
+}

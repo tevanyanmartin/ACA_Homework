@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+body .main-create-dv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+body .main-create-dv .sub-main {
+    display: inline-flex;
+    flex-flow: column;
+    background-color: #403c5a91;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+body .main-create-dv .sub-main .title {
+    text-transform: uppercase;
+    margin: 20px 0;
+    border-bottom: 1px solid;
+}
+
+body .main-create-dv .sub-main .form-div form {
+    display: flex;
+    flex-flow: column;
+}
+
+body .main-create-dv .sub-main .form-div label {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+body .main-create-dv .sub-main .form-div textarea {
+    margin: 10px 0px 20px;
+}
+
+body .main-create-dv .sub-main .form-div input[type='text'] {
+    margin-bottom: 10px;
+    padding: 7px 4px;
+    border: none;
+}
+
+body .main-create-dv .sub-main .form-div a {
+    cursor: pointer;
+    background-color: #3100b3;
+    border: none;
+    padding: 7px 0;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+body .main-tasks {
+    margin: 50px 0;
+}
+
+body .main-tasks .sub-main-tasks .title {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    box-shadow: 0px 27px 30px -22px black;
+}
+
+body #error a {
+    font-size: 15px;
+    color: red;
+}
+
+.task-content{
+    width: 100%;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    height: 80px;
+}
+.task-content::-webkit-scrollbar {
+    width: 5px;
+}
+
+.task-content::-webkit-scrollbar-thumb {
+    background: #918fa1;
+    border-radius: 10px;
+}
+
+.task-content::-webkit-scrollbar-thumb:hover {
+    background: #3100b3;
+}
+body .main-tasks .sub-main-tasks .table table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    border-color: black;
+}
+
+body .main-tasks .sub-main-tasks .table table .table-title {
+    background-color: #808080;
+    color: white;
+}
+
+body .main-tasks .sub-main-tasks .table table .table-title #num {
+    width: 50px;
+}
+
+body .main-tasks .sub-main-tasks .table table .table-title #pers {
+    width: 20%;
+}
+
+body .main-tasks .sub-main-tasks .table table .table-title #task {
+    width: 40%;
+}
+
+body .main-tasks .sub-main-tasks .table table .table-title #event {
+    width: 15%;
+}
+
+body .main-tasks .sub-main-tasks .table table tr:nth-child(2n+0) {
+    background-color: #e8e8e8;
+}
+body .main-tasks .sub-main-tasks .table table tr:not(:first-child){
+    border-bottom: 2px solid #918fa1;
+}
+body .main-tasks .sub-main-tasks .table table td,
+body .main-tasks .sub-main-tasks .table table .table-title th {
+    padding: 5px;
+    text-align: start;
+}
+
+body .main-tasks .sub-main-tasks .table table td button.delete {
+    background-image: url(img/delete.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+    border: none;
+    cursor: pointer;
+    padding: 14px;
+}
+
+
