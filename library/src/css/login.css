@@ -1,0 +1,102 @@
+.login-main{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #273535de;
+    background-image: url('../images/login-background.jpg');
+}
+.login-main .login-container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #21212138;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+}
+.login-main .login-container .login-logo {
+    width: 100%;
+    margin: 30px 0;
+}
+.login-main .login-container .login-logo .logo{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.login-main .login-container .login-logo .logo a{
+    width: 100px;
+    display: inline-block;
+    text-decoration: none;
+}
+.login-main .login-container .login-logo .logo a img{
+    width: 100%;
+}
+.login-main .login-container .login-logo .logo p{
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+.login-main .login-container .login-form{
+    width: 100%;
+}
+.login-main .login-container .login-form .form{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.login-main .login-container .login-form .form form{
+    width: 100%;
+display: flex;
+flex-flow: column;
+}
+.login-main .login-container .login-form .form form .error-meassage{
+    color:red;
+    height: 20px;
+}
+.login-main .login-container .login-form .form .submit{
+    background-color: #004382;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.login-main .login-container .login-form .form input{
+    width: 100%;
+    background: #031448b8;
+    border: 1px solid #2c577f;
+    font-size: 18px;
+    color: white;
+    padding: 7px 14px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.login-main .login-container .login-form .form input:focus{
+    border: 1px solid #00aeff;
+
+}
+input::selection {
+    background: #00aeff;
+}
+::selection {
+    background: #007bc6;
+}
+.login-main .login-container .in-login-create-newAcc-btn{
+    width: 100%;
+    margin-top: 50px;
+}
+.login-main .login-container .in-login-create-newAcc-btn .create-newAcc-btn{
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-top: solid 1px rgba(255, 255, 255, 0.15);
+}
+.login-main .login-container .in-login-create-newAcc-btn .create-newAcc-btn a{
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+.page-navigation {
+    position        : absolute;
+    left            : 0;
+    right           : 0;
+    top             : 0;
+    bottom          : 0;
+    overflow        : hidden;
+    height          : 60px;
+    background-color: #002650;
+}
+
+.page-navigation .page-container {
+    height  : 60px;
+    position: relative;
+}
+
+.page-navigation .page-container .navbar-desktop {
+    height  : 60px;
+    padding : 0 40px;
+    position: relative;
+}
+
+.page-navigation .page-container .navbar-desktop .navbar-desktop-a {
+    width       : 50px;
+    display     : inline-block;
+    overflow    : hidden;
+    margin-right: 30px;
+
+    margin-top: 5px;
+    cursor    : pointer;
+}
+
+.page-navigation .page-container .navbar-desktop .navbar-desktop-a img {
+    width: 100%;
+}
+
+.page-navigation .page-container .navbar-desktop .navbar-menu {
+    display : inline-block;
+    height  : 60px;
+    position: absolute;
+    top     : 0;
+}
+
+.page-navigation .page-container .navbar-desktop .navbar-menu .navbar-menu-a,
+.page-navigation .page-container .navbar-desktop .profile-items .profile-items-a {
+    position       : relative;
+    display        : inline;
+    top            : 30%;
+    font-size      : 18px;
+    line-height    : 1.4;
+    color          : rgba(255, 255, 255, 0.7);
+    background     : transparent;
+    white-space    : nowrap;
+    transition     : color 200ms, background-color 200ms, border-color 200ms;
+    margin-right   : 30px;
+    overflow       : inherit;
+    text-decoration: none;
+    cursor         : pointer;
+}
+
+
+
+
+.page-navigation .page-container .navbar-desktop .profile-items {
+    display : inline-block;
+    position: absolute;
+    top     : 0;
+    right   : 0;
+    height  : 60px;
+}
+
+
+/* .page-navigation .page-container .navbar-modules {} */

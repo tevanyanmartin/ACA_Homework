@@ -1,0 +1,177 @@
+.books-main-content {
+    background-color: #002650;
+    margin          : 50px 0;
+    padding         : 80px 0;
+    width           : 100%;
+    margin-top:300px
+}
+
+.books-main-content .books-container {
+    width          : 95%;
+    margin         : auto;
+    display        : flex;
+    justify-content: space-around;
+    flex-wrap      : wrap;
+}
+
+.books-main-content .books-container .book {
+    width     : 20%;
+    padding   : 25px;
+    position  : relative;
+    box-shadow: inset 0px -50px 50px 0px;
+    margin    : 15px
+}
+
+.books-main-content .books-container .book .name-of-book {
+    font-size     : 20px;
+    border        : none;
+    color         : #afbbc8;
+    border-bottom : 1px solid;
+    padding-bottom: 10px;
+    margin-bottom : 15px;
+    resize        : none;
+    background    : none;
+
+}
+
+.books-main-content .books-container .book .description-of-book {
+    color        : #afbbc8;
+    border       : none;
+    text-align   : justify;
+    margin-bottom: 50px;
+    line-height  : 1.3;
+    resize       : none;
+    background   : none;
+    width        : 100%;
+    height       : 200px;
+    padding-right: 10px;
+    overflow     : auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+    width     : 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #006fb2;
+    width     : 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #002e63;
+    width     : 5px
+}
+
+.books-main-content .books-container .book .description-of-book:focus,
+.books-main-content .books-container .book .name-of-book:focus,
+.books-main-content .books-container .book .author-of-book:focus,
+.books-main-content .create-new-book .create-book-container .create-book-form form textarea:focus,
+.books-main-content .create-new-book .create-book-container .create-book-form form input:focus {
+    outline: none
+}
+
+.books-main-content .books-container .book .author-of-book {
+    position  : absolute;
+    bottom    : 0;
+    left      : 30px;
+    color     : white;
+    border-top: 1px solid;
+    padding   : 15px 0;
+    border    : none;
+    resize    : none;
+    background: none;
+}
+
+.books-main-content .books-container .book .upd-and-del-btn {
+    position: absolute;
+    right   : 0;
+    bottom  : -30px;
+}
+
+.books-main-content .books-container .book .delete-book {
+    background   : #c54b4b;
+    border       : none;
+    padding      : 7px 14px;
+    margin-right : 5px;
+    border-radius: 2px;
+    cursor       : pointer;
+    color        : white;
+    outline      : none;
+}
+
+.books-main-content .books-container .book .update-book {
+    border          : none;
+    padding         : 7px 14px;
+    background-color: #006fb2;
+    color           : white;
+    border-radius   : 2px;
+    cursor          : pointer;
+    outline         : none;
+}
+
+.books-main-content .create-new-book {
+    width: 100%;
+}
+
+.books-main-content .create-new-book .create-book-container {
+    width           : 50%;
+    border          : 1px solid;
+    margin          : 10px auto;
+    padding         : 10px;
+    background-color: #20395480;
+}
+
+.books-main-content .create-new-book .create-book-container .create-book-title {
+    text-align: center;
+    color     : #afbbb9;
+}
+
+.books-main-content .create-new-book .create-book-container .create-book-title h2 {
+    display      : inline;
+    border-bottom: 1px solid;
+}
+
+.books-main-content .create-new-book .create-book-container .create-book-form form input {
+    font-size    : 18px;
+    background   : none;
+    border       : none;
+    border-bottom: 1px solid;
+    margin       : 20px 0;
+    color        : #afbbb9;
+    width        : 48%;
+}
+.books-main-content .create-new-book .create-book-container .create-book-form form input[name='author']{
+    float: right;
+}
+.books-main-content .create-new-book .create-book-container .create-book-form form textarea {
+    width      : 100%;
+    height     : 250px;
+    background : none;
+    border     : 1px solid;
+    margin-top : 40px;
+    font-size  : 16px;
+    color      : #afbba2;
+    resize     : none;
+    line-height: 1.3;
+    overflow   : auto;
+    text-align : center;
+    padding    : 7px 7px 30px 7px;
+    box-sizing : border-box;
+}
+.books-main-content .create-new-book .create-book-container .create-book-form form textarea:focus{
+    outline: none;
+}
+.books-main-content .create-new-book .create-book-container .create-book-form form input[type='submit'] {
+    background-color: #002650;
+    border          : none;
+    border-radius   : 5px;
+    padding         : 7px 14px;
+    width           : 20%;
+    display         : inline-block;
+    cursor          : pointer;
+}
